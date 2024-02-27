@@ -1,0 +1,886 @@
+https://helpful-jump-17b.notion.site/Mapa-de-aventura-91f3e9bd923842149d4dba754dc65c07
+tldraw.com (fluxograma)
+,,,
+ FLUXOGRAMAS 
+fluxograma (uma maneira visual de representar esse pensamento logico, ordem logica de passo a passo) 
+(PROBLEMA:
+NOSSOS HEROIS PRECISAM CRIAR UM ABRIGO PARA CONSTRUIR UM LUGAR SEGURO
+PARA SE PROTEGER DAS NOITES PERIGOSAS 
+DESENHE UM ALGORITIMO PARA RESOLVER ESSE PROBLEMA
+inicio 
+tecladinho (entrada de dados)  {digite o nome do seu abrigo}
+losanglo (estrurura de decisao)  {tem blocos o suficiente?}
+toda vez que tiver uma caixinha/quadrado é uma ação que sera realizada 
+quadrados caixinha (estruturas de ações) [ nao ] {colher mais blocos} //// [sim] { parar de colher blocos}
+losanglo (estrutura de looping) (ainda tem blocos o suficiente)  voltar no (TEM BLOCOS O SUFICIENTE?)  com uma setinha    
+finaliza com um quadrado (finalizar a contrução)
+FIM
+paarece um monitor mensagem de saida (mensagem de saida: "abrigo finalizado")
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+features:cada funcionalidade do aplicativo 
+imput: é todo o momento de interação com o usuario 
+process: sao verificações para realizar o pedido do usuario
+output: comando de saida, para retornar alguma coisa ou dar algum posicionamento ou mensagem para o usuario
+.
+.-
+.
+IDE: FERRAMENTA QUE VAI TER AJUDAR A ESCREVER SUAS LINHAS DE CODIGOS 
+(AMBIENTE DE DESENVOLVIMENTO INTEGRADO IDE)
+---------------------------------------------------------------------------------------------------------------------
+constante: é uma valor repetitivo  que nao varia
+variaveis: reserva uma parte da memoria do nosso programa para lembrar de algum conteudo. ex o nome
+cocatenando: juntando uma mensagem com uma variavel 
+let: declarar uma variavel
+console:manipular a maquina 
+.log :joga uma mensagem 
+________________________________________________
+
+`string` - são variaveis que armazenam texto
+
+**`number` - são variaveis que armazenam números**
+
+`boolean` - são variaveis lógicas, que armazenam o valor de ligado ou desligado (true/false)
+//pokemon
+let nomePokemon = "pikachu"
+let pokemonSexo = "M"
+
+let nivelPokemon = 20
+let pontosDeVidaPokemon = 45
+
+let selecionavel = false
+__________________________
+// nome, idade, numero de telefone, cpf, endereço,recebe pensao
+// string = armazenar texto
+// number = armazenar numeros
+// boolean = armazenar valores logicos
+________________________________________________
+let nomePessoa = "terezinha dos santos dias"
+let idade = 70
+let numeroTelefone = "11984713388"
+let cpf =  "312.122.312-45"
+let endereco = "Rua dos limoeiros, numero 75, bairro jaguatirica"
+let recebePensao = true
+__________________________________________________________________________
+
+Variáveis numéricas:///         São usadas para armazenar valores numéricos. 
+Inteiro:///                    Armazena números inteiros, como 1, 10, -5.
+Ponto flutuante ou decimal:/// Armazena números com casas decimais, como 3.14, -0.5.
+Números complexos:////         Armazena números complexos, como 2+3j.
+Variáveis de texto:///          Usadas para armazenar sequências de caracteres.
+String:///                      Armazena uma sequência de caracteres, como "Olá, mundo!"
+Caractere:///                    Armazena um único caractere, como 'a', 'X', '@'.
+Variáveis lógicas:///            Usadas para armazenar valores de verdadeiro ou falso.
+Booleano: ///                    Armazena os valores True ou False.
+Variáveis de data e hora: ///    Utilizadas para representar datas e horários.
+Data: ///                       Armazena datas, no formato AAAA-MM-DD.
+Hora:///                        Armazena horários, no formato HH:MM:SS.
+______________________________________________________________________________
+------------------------------------------------------------------------------------------------------
+
+
+shift
+.pop remove o ultimo elemento
+
+
+let Pokemon = ["Pikachu" , "Chamander", "Bulbassaur"]
+Pokemon.shift()
+Pokemon.pop()
+
+console.log(Pokemon)
+
+
+
+
+
+
+
+
+
+
+console.log("Digite o nome do seu jogador") 
+________________________
+//comando de saida
+console.log("Digita o nome do seu jogador")
+
+//declara uma variavel 
+let nickname = "maria mestra do pikachu"
+
+//cocatenando uma mensagem fixa + uma variavel
+console.log("Bem vinda " + nickname)
+console.log( nickname + " entrou no servidor ")
+________________________
+
+
+
+
+
+
+
+........................................................
+
+
+
+let poteCafe = "café pilão"
+let poteAcucar = "Açucar cristal"
+let poteBiscoito = "Biscoito Maizena"
+const messagemDaVovo = "Na cozinha da vovó hoje tem: "
+
+console.log(messagemDaVovo + poteCafe + " - " + poteAcucar + " - " + poteBiscoito)
+poteCafe = "Café 3 corações"
+
+console.log(messagemDaVovo + 
+poteCafe + " - " +
+poteAcucar + " - " +
+poteBiscoito
+
+
+Na cozinha da vovó hoje tem: café pilão - Açucar cristal - Biscoito Maizena
+Na cozinha da vovó hoje tem: Café 3 corações - Açucar cristal - Biscoito Maizena
+___________________________________________________________________________________________________________________________________________________________
+
+
+
+Operadores e expressões
+
+
+
+Operadores Aritméticos:                             servem para fazer calculo
+| Operador | Descrição | Exemplo |
+| --- | --- | --- |
+| + | Adição           | let result = 5 + 3; |
+| - | Subtração        | let result = 8 - 2; |
+| * | Multiplicação    | let result = 4 * 6; |
+| / | Divisão          | let result = 10 / 2; |
+| % | Módulo (resto da divisão) | let result = 10 % 3; |
+
+
+
+### Operadores Relacionais:                     verificar relação de uma vareavel
+
+| Operador | Descrição | Exemplo |
+| --- | --- | --- |
+| == | Igual a | let isEqual = (x == y); |
+| != | Diferente de | let isNotEqual = (x != y); |
+| > | Maior que | let isGreater = (x > y); |
+| < | Menor que | let isLess = (x < y); |
+| >= | Maior ou igual a | let isGreaterOrEqual = (x >= y); |
+| <= | Menor ou igual a | let isLessOrEqual = (x <= y); |
+
+
+### Operadores Lógicos:                                      fazem verificações logicas resultados vboleanos
+
+| Operador | Descrição | Exemplo |
+| --- | --- | --- |
+| && | AND lógico | if (condition1 && condition2) |
+| || | OR lógico | if (condition1 || condition2) |
+| ! | NOT lógico | if (!condition) |
+
+### Operadores de Atribuição:                                atribuir valores em uma variavel ou modificar de uma maneira mais inteligente 
+
+| Operador | Descrição | Exemplo |
+| --- | --- | --- |
+| = | Atribuição | let x = 5; |
+| += | Adição e atribuição | let num = 10; num += 2; |
+| -= | Subtração e atribuição | let num = 10; num -= 3; |
+| *= | Multiplicação e atribuição | let num = 5; num *= 4; |
+| /= | Divisão e atribuição | let num = 10; num /= 2; |
+| %= | Módulo e atribuição | let num = 10; num %= 3; |
+
+### Operadores de Incremento e Decremento:                  servem para almentar ou diminuir so 
+
+| Operador | Descrição | Exemplo |
+| --- | --- | --- |
+| ++ | Incremento | let counter = 0; counter++; |
+| -- | Decremento | let counter = 5; counter--; |
+
+
+=--------------------------------------------------------------------------------
+
+
+
+let cpfBloquado = "123.445.222.-45"
+let cpfUsuario = "222.111.222-09"
+let ehCPFBloqueado = cpfUsuario === cpfBloquado 
+
+console.log("O usuario pode embarcar ? " + ehCPFBloqueado)
+
+
+O usuario pode embarcar ? false
+
+
+
+
+
+
+
+
+
+POOCHVENA LV2  VIDA13/13
+ZIGZAGOON LV2 VIDA 13/13
+DRAGONITE LV5 VIDA 25/25
+DRAGONITEE LV5 VIDA 24/24
+POOCHVENAA LV3 VIDA 15/15
+HURPLE LV2 VIDA7/10
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+(+) mais
+(-) menos
+(=) igual a 
+(*) vezes
+(/) divisao
+let multiplicador = 4 
+let multiplicando = 12
+let produto = multiplicador * multiplicando
+console.log ("resultado da multiplicação é " + produto)
+
+
+r: resultado da multiplicação é 48
+
+multiplicador = 2
+multiplicando = 11                                     (na segunda vez usando o let nao precisa colocalo   vez1 / let multiplicador /     vez2/ multiplicador = 2    /                            )  
+produto = multiplicador * multiplicando 
+console.log ("resultado da multiplicação é " + produto)     
+
+r: resultado da multiplicação é 48
+resultado da multiplicação é 22
+
+
+let notaDoMercado = 50 
+console.log("operaçao de divisao " +  notaDoMercado / 2)
+
+
+let notaDoMercado = 50 
+let pessoasParaDividir = 7
+console.log("operaçao de divisao " +  notaDoMercado / pessoasParaDividir )
+
+r: operaçao de divisao 7.142857142857143
+
+
+
+let calculo = 10 % 3 
+console.log("operação de modulo " +  calculo)
+
+r: operação de modulo 1
+________________________________________________________________________________________________________________________________________________________________________________________________________
+
+incremento e decremento
+
+
+
+let contador = 1
+// '++' incremento 
+contador++ 
+console.log (contador)
+
+
+r: 2
+
+-------------------
+decremento 
+
+let contador = 3
+// '--' incremento 
+contador-- 
+console.log (contador)
+
+r: 2
+
+---------------------------------------------------------------------
+
+
+Operadores de Atribuição:
+
+| Operador|         | Descrição       | Exemplo                 |
+| ---     |                       --- |  ---                    |
+| =       | Atribuição                | let x = 5;              |
+| +=      | Adição e atribuição       | let num = 10; num += 2; |
+| -=      | Subtração e atribuição    | let num = 10; num -= 3; |
+| *=      | Multiplicação e atribuição| let num = 5; num *= 4;  |
+| /=      | Divisão e atribuição      | let num = 10; num /= 2; |
+| %=      | Módulo e atribuição       | let num = 10; num %= 3; |
+
+
+
+
+let preco = 10
+preco += 9
+console.log (preco)
+
+r: 19
+
+let resultado = 2 * ((5 + 5) - 10)                       () escopo ordem para ser resolvido primero                      let resultado = 2 * (5 + 5)                       let resultado = 2 * 5 + 5
+console.log (resultado)                                                                                            console.log (resultado)                             console.log (resultado)
+  
+
+
+
+r: 0                                                                                                                  r: 20                                             r: 15                                          
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+operadores logicos
+
+| Operador | Descrição  |                       Exemplo |
+| ---      | ---        | ---                           |
+| &&       | AND lógico | if (condition1 && condition2) |
+| ||       | OR lógico  | if (condition1 || condition2) |
+| !        | NOT lógico | if (!condition) |
+
+
+
+// AND (&&)
+let idade = 18 
+let VistoVereficado = true
+let resultado = (idade >= 18) && (VistoVereficado === true )
+console.log (resultado)
+
+
+r: true
+
+
+
+// AND ( && ) - 100 moedas coletadas E 1 item estrela
+let moedasColetadas = 100
+let item = "estrela"
+let resultado = (moedasColetadas >= 100) && (item === "estrela")
+console.log(resultado)
+
+r: true
+
+
+
+// OR ( || ) - nosso boneco só pode sair se tiver sem chuva OU com guarda Chuva
+let tempo = "chuva"
+let item = "guarda chuva"
+let podeSair = (tempo !== "chuva") || (item === "guarda chuva")
+console.log("nosso personagem pode sair ? " + podeSair)
+so precisa de uma das condições seja verdadeira
+r:nosso personagem pode sair ? true
+
+
+
+
+// NOT  ( !) - nega uma afirmação
+let tempo = "chuva"
+let resultado = tempo === "chuva"
+console.log(!!resultado)
+
+r: true
+
+
+
+let possuiOvos = true
+let itensComprados = ""
+
+if(possuiOvos){
+itensComprados = "Leite"
+}
+else{
+console.log("passou na sessão de congelados")
+itensComprados = "Lasanha congelada"
+}
+
+console.log("item comprado: " + itensComprados)
+
+
+
+
+//if,else if ,else
+let nivelDeFome =  "1"
+
+if(nivelDeFome === 1){
+console.log("pouca fome")
+}else if(nivelDeFome ===2){
+console.log("muita fome")
+}else{
+console.log("Você comeria mais que o pica pau")
+}
+
+
+
+
+
+
+
+
+let dia = "terça"; // Você pode mudar isso para outros dias
+
+switch (dia) {
+  case "segunda":
+    console.log("Dia de começar a semana com energia!");
+    break;
+  case "terça":
+    console.log("Hora de aprender coisas novas!");
+    break;
+  case "quarta":
+    console.log("Metade da semana, continue firme!");
+    break;
+  case "quinta":
+    console.log("Quase lá, um pouco mais de esforço!");
+    break;
+  case "sexta":
+    console.log("Dia de comemorar, o fim de semana está chegando!");
+    break;
+  default:
+    console.log("Final de semana! Descanse e divirta-se!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+-----------------------------
+--------------------------------------- 
+-----------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for 
+for (let contador = 0; contador < 4; contador++){
+  console.log(contador)
+  console.log("aumentando o contador")
+}
+r:
+0
+aumentando o contador
+1
+aumentando o contador
+2
+aumentando o contador
+3
+aumentando o contador
+
+
+let pontoDeVida = 0 
+
+for(let i = 0; i <=10 ; i++){
+       pontoDeVida += 1 
+     
+       console.log("tomou poção magica" + i)
+  }
+  console.log(pontoDeVida + "totais")
+
+
+
+
+tomou poção magica0
+tomou poção magica1
+tomou poção magica2
+tomou poção magica3
+tomou poção magica4
+tomou poção magica5
+tomou poção magica6
+tomou poção magica7
+tomou poção magica8
+tomou poção magica9
+tomou poção magica10
+11totais
+
+
+==========================
+
+whille enquanto
+
+let i = 0
+
+while (i < 3){
+    console.log("ola")
+   i++
+    
+    }
+// nao pode esquecer de encrementar a variavel i++
+
+
+
+do faça
+
+
+//do while faça
+let contador = 0
+do {
+       console.log("ola")
+       contador ++
+       
+} while (contador < 3)
+
+// contador ++ para nao cair em lup enfinito
+
+ola
+ola
+ola
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+o que deve ser utilizado 
+
+variaveis 
+operadores
+laços de repetição 
+estrutura de decisao
+
+crie uma varialvel para armazenar o nome e a quantidade de 
+experiencia (XP) de um heroi, depois utilize uma estrutura
+de decisao para apresentar alguma das mensagens abaixo:
+
+Se XP for menor do que  1000 = Ferro
+Se XP dor entre 1001 e 2000 = bronze
+Se XP dor entre 2001 e 5000 = prata
+Se XP dor entre 6001 e 7000 = ouro
+Se XP dor entre 7001 e 8000 = platina diamante 
+Se XP dor entre 8001 e 9000 = ascendente
+Se XP dor entre 9001 e 10000 = imortal
+Se XP dor entre   10001 = radiante
+
+Ao final deve se exibir uma mensagem: 
+"O Heroi de nome {bob} esta no nivel de {nivel}
+
+
+let nomeHeroi = "Bob";
+
+
+let xpHeroi = 7500;
+
+
+let nivel;
+if (xpHeroi < 1000) {
+    nivel = "Ferro";
+} else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
+    nivel = "Bronze";
+} else if (xpHeroi >= 2001 && xpHeroi <= 5000) {
+    nivel = "Prata";
+} else if (xpHeroi >= 5001 && xpHeroi <= 7000) {
+    nivel = "Ouro";
+} else if (xpHeroi >= 7001 && xpHeroi <= 8000) {
+    nivel = "Platina";
+} else if (xpHeroi >= 8001 && xpHeroi <= 9000) {
+    nivel = "Ascendente";
+} else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
+    nivel = "Imortal";
+} else {
+    nivel = "Radiante";
+}
+
+console.log("O herói de nome " + nomeHeroi +  "está no nível de" + nivel)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------
+
+
+
+let rmn = "visita chegou ";
+​
+​
+​
+console.log ("A " + rmn + "pela porta da frente");
+
+
+
+
+padrao kamio kaise olaTudoBem 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+soma (5 , 5)
+
+
+function soma (numA, numB){
+    let somatoria = numA + numB
+
+     console.log(somatoria
+     )
+}
+
+
+
+let resultado = soma (5, 10)
+​
+console.log ("O resultado dessa função é " + resultado )
+​
+function soma (numA, numB){
+    let somatorio = numA + numB
+    return somatorio
+}
+
+
+
+
+
+let userName = getFirstName("Felipe barreto alvares cabral filho neto junior")
+​
+console.log("Welcome " + userName)
+​
+function getFirstName(name) {
+    let firstName = name.split(" ")[0]
+    return firstName
+}
+​
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function calcularNivel(vitorias, derrotas) {
+    let saldoVitorias = vitorias - derrotas;
+    let nivel;
+
+    if (vitorias < 10) {
+        nivel = "Ferro";
+    } else if (vitorias >= 11 && vitorias <= 20) {
+        nivel = "Bronze";
+    } else if (vitorias >= 21 && vitorias <= 50) {
+        nivel = "Prata";
+    } else if (vitorias >= 51 && vitorias <= 80) {
+        nivel = "Ouro";
+    } else if (vitorias >= 81 && vitorias <= 90) {
+        nivel = "Diamante";
+    } else if (vitorias >= 91 && vitorias <= 100) {
+        nivel = "Lendário";
+    } else {
+        nivel = "Imortal";
+    }
+
+    return { saldoVitorias, nivel };
+}
+
+// Exemplo de uso da função
+let vitorias = 70;
+let derrotas = 20;
+let resultado = calcularNivel(vitorias, derrotas);
+console.log(`O Herói tem um saldo de ${resultado.saldoVitorias}, está no nível de ${resultado.nivel}.`);
+
+
+
+
+
+
+
+
+
+
+
+
+

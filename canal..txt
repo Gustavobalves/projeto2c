@@ -1,0 +1,11 @@
+Plataformas usadas para gerar o canal dark:
+🧠 ChatGPT (I.A.): https://openai.com/blog/chatgpt
+✂️ CapCut (Editor de vídeo com legenda automática): https://www.capcut.com/
+🌃 Bing (Gerador de Imagens): https://www.bing.com/create
+🎵 Soundraw (Gerador de Músicas): https://soundraw.io/
+🎤 ClipChamp (Gerador de Narração): https://clipchamp.com/pt-br/
+📷 Canva (Editor de imagem online): https://www.canva.com/
+🎙️ Chrome Audio Capture (Extensâo para gravar áudio): https://chrome.google.com/webstore/de...
+🌟 Shortsnoob (Baixar vídeo do YouTube): https://shortsnoob.com/pt
+
+short.ia

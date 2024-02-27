@@ -1,0 +1,257 @@
+https://helpful-jump-17b.notion.site/mapa-de-aventura-91f3e9bd923842149d4dba754dc65c07
+tldraw.com (fluxograma)
+
+,,, 
+ FLUXOGRAMAS 
+fluxogramas (uma maneira visual de representar esse pensamento logico, ordem logica passo a passo)
+(PROBLEMA:
+NOSSOS HEROIS PRECISAM CRIAR UM ABRIGO PARA CONSTRUIR UM LUGAR SEGURO
+PARA SE PROTEGER DAS NOITES PERIGOSA
+DESENHE UM ALGORITIMO PARA RESOLVER ESSE PROBLEMA
+inicio
+tecladinho (entrada de dados) {digite o nome do seu abrigo}
+losanglo (estrurura de decisao) {tem blocos o suficiente?}
+toda vez que tiver uma caixinha/quadrado é uma ação que sera realizada
+quadrados caixinha (estruturas de ações) [ nao ] {colher mais blocos} //// [sim] { parar de colher blocos} losanglo (estrutura de looping) (ainda tem blocos o suficiente) voltar no (TEM BLOCOS O SUFICIENTE?) finaliza com um quadrado 
+(finalizar a contrução) com uma setinha
+FIM
+paarece um monitor mensagem de saida (mensagem de saida: "abrigo finalizado")~
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------
+features:cada funcionalidade do aplicativo
+
+imput: é todo o momento de interação com o usuario
+
+process: sao verificações para realizar o pedido do usuario
+
+output: comando de saida, para retornar alguma coisa ou dar algum posicionamento ou mensagem para o usuario
+.
+.
+.
+IDE: FERRAMENTA QUE VAI TER AJUDAR A ESCREVER SUAS LINHAS DE CODIGOS 
+(AMBIENTE DE DESENVOLVIMENTO INTEGRADO IDE)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+constante: é uma valor repetitivo que nao varia
+
+variaveis: reserva uma parte da memoria do nosso programa para lembrar de algum conteudo. ex o nome
+
+cocatenando: juntando uma mensagem com uma variavel
+let: declarar uma variavel
+
+console:manipular a maquina
+.log joga uma mensagem
+_____________________________________________________________________
+'string' - são variaveis que armazenam texto
+
+**'number' - são variaveis que armazenam números**
+
+'boolean' - são variaveis lógicas, que armazenam o valor de ligado ou desligado (true/false)
+//pokemon
+let nomePokemon "pikachu"
+let pokemonSexo "M"
+
+let nivelPokemon 20
+let pontosDeVidaPokemon - 45
+
+let selecionavel = false
+_________________________________________________________________________
+// nome, idade, numero de telefone, cpf, endereço, recebe pensao
+// string armazenar texto
+// number armazenar numeros
+// boolean armazenar valores logicos
+_____________________________________________________________________________
+let nomePessoa "terezinha dos santos dias"
+let idade - 70
+let numeroTelefone = "11984713388"
+let cpf "312.122.312-45"
+let endereco "Rua dos limoeiros, numero 75, bairro jaguatirica"
+let recebePensao = true
+______________________________________________________________________________
+
+Variáveis numéricas:///            São usadas para armazenar valores numéricos.
+Inteiro:///                        Armazena números inteiros, como 1, 10, -5.
+Ponto flutuante ou decimal:///     Armazena números com casas decimais, como 3.14, -0.5.
+Números complexos: ////            Armazena números complexos, como 2+3j.
+Variáveis de texto:///             Usadas para armazenar sequências de caracteres.
+String:///                         Armazena uma sequência de caracteres, como "Olá, mundo!"
+Caractere:///                      Armazena um único caractere, como 'a', 'X', '@'. 
+Variáveis lógicas:///              Usadas para armazenar valores de verdadeiro ou falso.
+Booleano: //                       Armazena os valores True ou False.
+Variáveis de data e hora: ///      Utilizadas para representar datas e horários.
+Data: ///                          Armazena datas, no formato AAAA-MM-DD.
+Hora:///                           Armazena horários, no formato HH:MM:SS.
+
+_________________________________________________________________________________________________
+--------------------------------------------------------------------------------------------------
+
+shift
+
+.pop remove o ultimo elemento
+
+let Pokemon = ["Pikachu", "Chamander", "Bulbassaur"]
+Pokemon.shift()
+Pokemon.pop()
+
+console.log(Pokemon)
+
+
+
+
+
+
+
+
+
+
+
+
+
+__________________________________________________________________________________________________
+console.log("Digite o nome do seu jogador")
+__________________
+//comando de saida
+console.log("Digita o nome do seu jogador")
+
+//declara uma variavel
+ let nickname = "maria mestra do pikachu"
+
+//cocatenando uma mensagem fixa + uma variavel
+ console.log("Bem vinda + nickname)
+ console.log(nickname + " entrou no servidor ")
+
+__________________
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------
+
+
+
+let poteCafe = "café pilão"
+let poteAcucar = "Açucar cristal"
+Let poteBiscoito - "Biscoito Maizena"
+const messagemDaVovo = "Na cozinha da vovó hoje tem: "
+
+console.log(messagemDaVovo + PoteCafe " - " + poteAcucar + " - " + poteBiscoito)
+PoteCafe = "Cafe 3 corações"
+
+colsole.log(messagemDaVovo +
+
+poteCafe + " - " +
+
+poteAcucar + " - " +
+
+poteBiscoito 
+
+Na cozinha da vovó hoje tem: café pilão - Açucar cristal Biscoito Maizena
+Na cozinha da vovó hoje tem: Café 3 corações - Açucar cristal - Biscoito Maizena
+____________________________________________________________________________________________________
++
+
+Pperadores e expressões
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+torrar("pão de forma");
+
+
+function torrar(pao){
+     console.log (" torrada feita com " + pao )
+
+}
+-----------------------------------------------------------------
+torrar("pão de forma" , "felipe ")
+
+
+function torrar(pao, nome ){
+       console.log (" torrada feita com " + pao )
+       console.log ("ela é um pedido de" + nome )
+        
+}
+-----------------------------------------------------------------
+
+torrar("pão de forma" , "safari")
+
+
+function torrar(pao, nome = "cliente"){
+       console.log (" torrada feita com " + pao )
+       console.log ("ela é um pedido de" + nome )
+        
+}
+ 
+-------------------------------------------------------------------
+
+torrar("pão de forma" , "safari" , "189,9")
+
+// deixar  a opcional por ultima como come do cliente, é opicional pq se eu tirar ele escreve diferente portanto coolocar o parametro por ultimo
+function torrar(pao, nome = "cliente" , valor){
+       console.log (" torrada feita com " + pao )
+       console.log (" ela é um pedido de " + nome )
+       console.log (" O valor totoal é " + valor)
+}
+ 
+interpolação de strings
+
+
+
+
+

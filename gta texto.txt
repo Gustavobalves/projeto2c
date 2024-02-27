@@ -1,0 +1,25 @@
+profile_reticulesize -1 mira 
+ 
+ ALTERAR A MIRA ENTRE SIMPLES E COMPLEXA ]
+➔ bind keyboard "z" "toggle profile_reticule 0 -2"
+
+
+[ AUMENTAR OU DIMINUIR A MIRA ]
+➔ profile_reticulesize -4
+
+
+[ ALTERAR A SENSIBILIDADE DO MOUSE ]
+➔ profile_mouseOnFootScale 20
+
+
+[ MOSTRAR OU OCULTAR FPS, PING, PL, CPU, GPU ]
+➔ cl_drawperf 1
+
+
+[ MOSTRAR OU OCULTAR FPS ]
+➔ cl_drawfps 1
+
+
+[ AUMENTAR OU DIMINUIR O BRILHO ]
+➔ profile_gamma 18
+connect rushgg.com
